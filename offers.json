@@ -5,8 +5,7 @@
     "normal_price": 1000.0,
     "offer_price": 164.0,
     "latitude": 48.884211,
-    "longitude": 2.346890,
-    "user": User.all[0]
+    "longitude": 2.346890
   },
   {
     "name": "Trendy Apt in Buttes Montmartre",
@@ -14,8 +13,7 @@
     "normal_price": 1000,
     "offer_price": 200,
     "latitude": 48.885707,
-    "longitude": 2.343543,
-    "user": User.all[0]
+    "longitude": 2.343543
   },
   {
     "name": "Super 60m2 in trendy neighborhood!",
@@ -23,8 +21,7 @@
     "normal_price": 1000,
     "offer_price": 150,
     "latitude": 48.885312,
-    "longitude": 2.341225,
-    "user": User.all[0]
+    "longitude": 2.341225
   },
   {
     "name": "Splendide terrasse vue imprenable",
@@ -32,8 +29,7 @@
     "normal_price": 1000,
     "offer_price": 115,
     "latitude": 48.881840,
-    "longitude": 2.343371,
-    "user": User.all[0]
+    "longitude": 2.343371
   },
   {
     "name": "Superbe vue à 2 min du Sacré Coeur",
@@ -41,8 +37,7 @@
     "normal_price": 1000,
     "offer_price": 135,
     "latitude": 48.888839,
-    "longitude": 2.339208,
-    "user": User.all[0]
+    "longitude": 2.339208
   },
   {
     "name": "Bohemian and Chic in Paris",
@@ -50,8 +45,7 @@
     "normal_price": 1000,
     "offer_price": 90,
     "latitude": 48.827855,
-    "longitude": 2.350774,
-    "user": User.all[0]
+    "longitude": 2.350774
   }
 
 ]
