@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   # to create api folder routes
   namespace :api do
-  	resources :comments
+  	resources :offers
   end
 
 end
