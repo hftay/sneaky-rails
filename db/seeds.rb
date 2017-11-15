@@ -51,7 +51,7 @@ Offer.create([
     "user": User.all[0]
   },
   {
-    "name": "20% off all pizza, today only",
+    "name": "Today only, 20% off all pizza",
     "image_url": "https://i2.wp.com/www.sunsetcp.com.au/wp-content/uploads/2017/04/Wood-Fired-Pizza-Oven-Stock.gif",
     "normal_price": 1000,
     "offer_price": 6,
@@ -60,7 +60,7 @@ Offer.create([
     "user": User.all[0]
   },
   {
-    "name": "$7 drink all you can",
+    "name": "Beer drink all you can",
     "image_url": "https://media.timeout.com/images/103101530/630/472/image.jpg",
     "normal_price": 1000,
     "offer_price": 7,
