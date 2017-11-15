@@ -19,8 +19,8 @@ Offer.create([
     "image_url": "http://www.domesticate-me.com/wp-content/uploads/2015/03/cucumber-mint-vodka-sparklers-6.jpg",
     "normal_price": 1000.0,
     "offer_price": 5,
-    "latitude": 48.889211,
-    "longitude": 2.349890,
+    "latitude": -37.815,
+    "longitude": 144.946,
     "user": User.all[0]
   },
   {
@@ -28,8 +28,8 @@ Offer.create([
     "image_url": "https://hips.hearstapps.com/cos.h-cdn.co/assets/cm/14/25/53a0548777ed5_-_cos-02-bees-knees-xl.jpg",
     "normal_price": 1000,
     "offer_price": 6,
-    "latitude": 48.831707,
-    "longitude": 2.423543,
+    "latitude": -37.855,
+    "longitude": 144.956,
     "user": User.all[0]
   },
   {
@@ -37,8 +37,8 @@ Offer.create([
     "image_url": "https://i.pinimg.com/736x/b1/97/2b/b1972b45a5eb7231f2fd2a2feb076b76--martini-cocktail-champagne-cocktail.jpg",
     "normal_price": 1000,
     "offer_price": 7,
-    "latitude": 48.895312,
-    "longitude": 2.331225,
+    "latitude": -37.765,
+    "longitude": 144.996,
     "user": User.all[0]
   },
   {
@@ -46,8 +46,8 @@ Offer.create([
     "image_url": "http://www.thesecondrow.com.au/wp-content/uploads/2016/06/meat-fruit-heston-blumenthal.jpg",
     "normal_price": 1000,
     "offer_price": 5,
-    "latitude": 48.861840,
-    "longitude": 2.323371,
+    "latitude": -37.805,
+    "longitude": 144.916,
     "user": User.all[0]
   },
   {
@@ -55,8 +55,8 @@ Offer.create([
     "image_url": "https://i2.wp.com/www.sunsetcp.com.au/wp-content/uploads/2017/04/Wood-Fired-Pizza-Oven-Stock.gif",
     "normal_price": 1000,
     "offer_price": 6,
-    "latitude": 48.888839,
-    "longitude": 2.339208,
+    "latitude": -37.785,
+    "longitude": 144.966,
     "user": User.all[0]
   },
   {
@@ -64,8 +64,8 @@ Offer.create([
     "image_url": "https://media.timeout.com/images/103101530/630/472/image.jpg",
     "normal_price": 1000,
     "offer_price": 7,
-    "latitude": 48.827855,
-    "longitude": 2.350774,
+    "latitude": -37.805,
+    "longitude": 145.000,
     "user": User.all[0]
   }
 
