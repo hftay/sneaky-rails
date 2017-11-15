@@ -29,7 +29,7 @@ Offer.create([
     "normal_price": 1000,
     "offer_price": 6,
     "latitude": 48.831707,
-    "longitude": 2.343543,
+    "longitude": 2.423543,
     "user": User.all[0]
   },
   {
