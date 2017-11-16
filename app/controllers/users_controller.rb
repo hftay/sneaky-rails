@@ -7,9 +7,9 @@ class UsersController < ApplicationController
   	user.email = params[:email]
 		# user.password = params[:password_digest] #need bcrypt this
     if user.save
-    	render json: { msg: "great success" }
+    	render json: { msg: "Successfully signed up as: " }
     else
-    	render json: { msg: "something went wrong" }
+    	render json: { msg: "Something went wrong" }
     end
 
 	end
