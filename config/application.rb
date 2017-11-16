@@ -28,6 +28,8 @@ module SneakyRails
     # Don't generate system test files.
     config.generators.system_tests = nil
 
+
+
     # rack-cors gem
     config.middleware.insert_before 0, Rack::Cors do
       allow do
