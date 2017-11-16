@@ -4,6 +4,8 @@ class User < ApplicationRecord
 	#.password is the first method added
 	#.authenticate is the second method added
 
-	has_many :offers
+	has_many :offers, through: :cart
+
+	has_one :cart, dependent: :destroy 
 
 end

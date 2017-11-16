@@ -10,8 +10,10 @@ Offer.destroy_all
 User.destroy_all
 
 #note: Offer must belong to a User, therefore you must create Users first and link it, otherwise Offer create will not save.
-User.create(
-	username: 'Luke')
+User.create([
+  { username: 'Luke' },
+  { username: 'Beard' } 
+])
 
 Offer.create([
 	{
@@ -33,7 +35,7 @@ Offer.create([
     "user": User.all[0]
   },
   {
-    "name": "Special Offer: 1-2 pm this afternoon",
+    "name": "Limited time only: 1-2 pm this afternoon",
     "image_url": "https://i.pinimg.com/736x/b1/97/2b/b1972b45a5eb7231f2fd2a2feb076b76--martini-cocktail-champagne-cocktail.jpg",
     "normal_price": 1000,
     "offer_price": 7,
@@ -42,7 +44,7 @@ Offer.create([
     "user": User.all[0]
   },
   {
-    "name": "Special Offer: 2 pm this afternoon",
+    "name": "Specials: 2 pm this afternoon",
     "image_url": "http://www.thesecondrow.com.au/wp-content/uploads/2016/06/meat-fruit-heston-blumenthal.jpg",
     "normal_price": 1000,
     "offer_price": 5,

@@ -1,16 +1,21 @@
 Rails.application.routes.draw do
+  resources :carts
   resources :users
   resources :offers
   resources :charges
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-
-  get '/api/offers', to: 'api/offers#index'
   # post '/charges/new', to: 'charges#create'
 
-  # to create api folder routes
+
+  # helpers to create api folder routes
   namespace :api do
-  	resources :offers
+    resources :offers
+    resources :users    
+    resources :carts
   end
+  # or do it manually
+  # get '/api/offers', to: 'api/offers#index'
+  # get '/api/users', to: 'api/users#index'
+  post '/api/carts', to: 'api/carts#create'
 
 end
