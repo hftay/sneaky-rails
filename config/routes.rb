@@ -6,7 +6,6 @@ Rails.application.routes.draw do
 
   # post '/charges/new', to: 'charges#create'
 
-
   # helpers to create api folder routes
   namespace :api do
     resources :offers
