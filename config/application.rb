@@ -31,8 +31,8 @@ module SneakyRails
     # rack-cors gem
     config.middleware.insert_before 0, Rack::Cors do
       allow do
-        # origins '*' #allows calls from anywhere
-        origins 'localhost:3000', 'https://sneaky-rails.herokuapp.com'
+        origins '*' #allows calls from anywhere
+        # origins 'localhost:3000', 'https://hftay.github.io/sneaky-react/'
         resource '*', :headers => :any, :methods => [:get, :post, :options]
       end
     end
